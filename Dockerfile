@@ -30,3 +30,6 @@ ADD ./pwiz-bin-windows-x86_64-vc120-release-3_0_10505.tar.bz2 ProteoWizard3.0.10
 WORKDIR C:/
 
 #CMD ["C:\\Program Files\\ProteoWizard\\ProteoWizard3.0.10505\\msconvert.exe"]
+
+##run the container:
+#docker run --name proteowizard -v c:/Users/dmccloskey/Desktop/openMS_test/:c:/openMS_test/ dmccloskey/docker_proteowizard C:/"Program Files"/ProteoWizard/msconvert *.wiff
