@@ -41,3 +41,5 @@ WORKDIR C:\\pwiz_data
 
 ##run the container:
 #docker run --name proteowizard -v c:/Users/domccl/"Dropbox (UCSD SBRG)"/absciexQTRAP5500_dataProcessing/analyst/openMS_test/Convert/:c:/pwiz_data/ dmccloskey/docker-pwiz msconvert *.wiff
+##ERROR: insuffcient system resources exist to complete the requested service
+##ERROR occurs even when specifying --memory 12000mb
